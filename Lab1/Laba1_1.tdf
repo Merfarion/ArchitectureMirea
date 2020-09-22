@@ -1,0 +1,8 @@
+subdesign 'Laba1_1'
+(
+a,b,c,d :input;
+		y: output;
+)
+begin
+y= (a&b)#(c&d)#(a&b)$(b&d);
+end;
